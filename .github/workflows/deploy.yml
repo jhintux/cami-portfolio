@@ -1,4 +1,4 @@
-name: Deploy to Cami Vercel
+name: Deploy to Secondary Vercel
 on:
   push:
     branches: [main]
@@ -7,8 +7,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      # 1. Install Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      # 2. Install pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
+
+      # 3. Install Vercel CLI
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
+
+      # 4. Pull, Build, and Deploy
       - name: Pull Vercel Environment
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build Project Artifacts
