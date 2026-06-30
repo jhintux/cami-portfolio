@@ -8,13 +8,13 @@ export function proxy(request: NextRequest) {
     (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`),
   );
 
-  if (pathnameHasLocale) return;
+  if (pathnameHasLocale) return NextResponse.next();
 
   const locale = defaultLocale;
   request.nextUrl.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
   return NextResponse.redirect(request.nextUrl);
 }
 
-export const config = {
+export const proxyConfig = {
   matcher: ["/((?!api|_next/static|_next/image|images|favicon.ico|.*\\..*).*)"],
 };
