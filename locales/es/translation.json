@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "The Witch Keeper — Camilo Estacio",
+    "description": "Portafolio de Camilo Estacio — diseñador gráfico e ilustrador de Colombia."
+  },
+  "nav": {
+    "illustration": "Ilustración",
+    "merch": "Merch",
+    "branding": "Branding",
+    "web": "Diseño web",
+    "contact": "Contacto",
+    "langSwitch": "English version"
+  },
+  "hero": {
+    "tag": "Diseñador gráfico e ilustrador · Colombia",
+    "titleLine1": "Portafolio",
+    "titleLine2": "de the witch",
+    "titleLine3": "keeper.",
+    "subtitle": "Camilo Estacio — diseño con color, energía y personalidad.",
+    "scroll": "desplázate"
+  },
+  "about": {
+    "titleLine1": "sobre",
+    "titleLine2": "mí.",
+    "paragraph1": "Ilustrador y diseñador gráfico con 4 años de experiencia en el campo creativo. Mi trabajo se enfoca en desarrollar conceptos interesantes y llamativos, traducidos en diseños impactantes y funcionales.",
+    "paragraph2": "Me apasiona crear marcas con identidades únicas, usando la ilustración como herramienta clave en el proceso."
+  },
+  "skills": {
+    "digitalIllustration": "Ilustración digital",
+    "brandIdentity": "Identidad de marca",
+    "characterDesign": "Diseño de personajes",
+    "webDesign": "Diseño web / UI",
+    "fashionDesign": "Diseño de moda"
+  },
+  "illustration": {
+    "titleLine1": "ilustración",
+    "titleLine2": "de personajes",
+    "tag": "Personajes originales · Fan art",
+    "badgeOc": "OC — personaje original",
+    "badgeFanart": "Fan art · Mirko / My Hero Academia",
+    "items": {
+      "oc1": {
+        "alt": "OC 1",
+        "label": "Personaje original · paleta análoga"
+      },
+      "oc2": {
+        "alt": "OC 2",
+        "label": "Personaje original · guerrera mágica"
+      },
+      "oc3": {
+        "alt": "OC 3",
+        "label": "Personaje original · pose dinámica"
+      },
+      "oc4": {
+        "alt": "OC 4",
+        "label": "Personaje original · efectos de luz"
+      },
+      "mirko": {
+        "alt": "Fan art de Mirko",
+        "label": "Fan art · Mirko — Boku no Hero Academia"
+      }
+    }
+  },
+  "merch": {
+    "titleLine1": "diseño",
+    "titleLine2": "de merch.",
+    "tag": "Mockups · Producto · Impresión",
+    "items": {
+      "merch1": {
+        "alt": "Merch 1",
+        "label": "Tote bag · Cuaderno · Mug"
+      },
+      "merch2": {
+        "alt": "Merch 2",
+        "label": "Layout completo de productos"
+      }
+    }
+  },
+  "branding": {
+    "titleLine1": "montaráz",
+    "titleLine2": "marca",
+    "titleLine3": "propia.",
+    "activeBadge": "★ Marca propia · Actualmente activa",
+    "tag": "Identidad · Estrategia · Editorial · Moda",
+    "tagline": "la osadía de vestir.",
+    "description": "Creación y dirección integral de marca para <strong>Montaráz</strong>, un estudio de moda colombiano que fundé. El proyecto abarcó desde la estrategia conceptual — \"atmósferas entrelazadas\" — hasta la identidad visual, Fashion Book 2024, contenido para redes sociales y materiales impresos. Actualmente sigo gestionando la marca.",
+    "fashionTitle": "bocetos",
+    "fashionEmphasis": "de moda.",
+    "fashionTag": "Ilustración de moda · Montaráz",
+    "fashionAlt": "Bocetos de moda",
+    "items": {
+      "logo": {
+        "alt": "Logo Montaráz",
+        "label": "Logo · Identidad de marca"
+      },
+      "conceptos": {
+        "alt": "Conceptos Montaráz",
+        "label": "Conceptos clave de marca"
+      },
+      "social": {
+        "alt": "Redes Montaráz",
+        "label": "Gestión de redes sociales"
+      },
+      "fashionBook": {
+        "alt": "Fashion Book",
+        "label": "Fashion Book 2024"
+      },
+      "flyer": {
+        "alt": "Flyer",
+        "label": "Impresión · Flyer institucional"
+      },
+      "fashionBookInterior": {
+        "alt": "Interior Fashion Book",
+        "label": "Fashion Book · Fotografía editorial"
+      }
+    }
+  },
+  "web": {
+    "titleLine1": "diseño",
+    "titleLine2": "web.",
+    "tag": "UI · UX · Identidad digital",
+    "intro": "Diseño web completo para <strong>FisioKids</strong>, un centro de desarrollo y estimulación infantil. El proyecto incluye identidad visual, interfaz de usuario y experiencia web integral desde cero.",
+    "badges": {
+      "mockup": "Mockup",
+      "home": "Inicio",
+      "hero": "Hero",
+      "services": "Servicios",
+      "team": "Equipo",
+      "contact": "Contacto",
+      "footer": "Footer"
+    },
+    "items": {
+      "laptop": { "alt": "FisioKids laptop" },
+      "home": { "alt": "FisioKids inicio" },
+      "hero": { "alt": "FisioKids hero" },
+      "services": { "alt": "FisioKids servicios" },
+      "team": { "alt": "FisioKids equipo" },
+      "contact": { "alt": "FisioKids contacto" },
+      "footer": { "alt": "FisioKids footer" }
+    }
+  },
+  "contact": {
+    "closingAlt": "Tarjeta de cierre",
+    "titleLine1": "hablemos",
+    "titleLine2": "de tu",
+    "titleLine3": "proyecto.",
+    "emailLabel": "Correo",
+    "phoneLabel": "Teléfono / WhatsApp",
+    "instagramLabel": "Instagram"
+  },
+  "footer": {
+    "credit": "Camilo Estacio — Diseñador gráfico e ilustrador",
+    "copyright": "© 2026 · @thewitchkeeper_"
+  },
+  "lightbox": {
+    "close": "Cerrar visor"
+  }
+}
